@@ -40,7 +40,7 @@ namespace WorkWithFiles
             line = sr.ReadLine();
             while (line != null)
             {
-                textbox2.Text = line;
+                textbox2.Text += line;
                 line = sr.ReadLine();
             }
         }
