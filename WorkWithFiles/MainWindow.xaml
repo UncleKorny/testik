@@ -24,17 +24,22 @@
                 </Grid>
                 <StackPanel>
                     <Grid>
-                        <TextBox x:Name="textbox1" TextWrapping = "Wrap"
+                        <TextBox
+                            MaxWidth="320"
+                            TextWrapping = "Wrap"
+                            AcceptsReturn="True"
                             HorizontalAlignment="Left"
                             MinWidth="320"
+                            Height="100"
+                            Text="Skjljdfjlskdjflksd"></TextBox>
+                        <TextBox
                             MaxWidth="320"
-                            Height="100"/>
-                        <TextBox x:Name="textbox2"
+                            TextWrapping = "Wrap"
+                            AcceptsReturn="True"
                             MinWidth="320"
                             Height="100"
-                            MaxWidth="320"
-                            TextWrapping="wrap"
-                            HorizontalAlignment="Right"/>
+                            HorizontalAlignment="Right"
+                            Text="Skjljdfjlskdjflksd"></TextBox>
                     </Grid>
                 </StackPanel>
             </StackPanel>
